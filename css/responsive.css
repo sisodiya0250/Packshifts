@@ -1,0 +1,481 @@
+@media only screen and (min-width:0px) and (max-width:560px){
+    
+    .title h2{
+        font-size: 20px;;
+    }
+    nav{
+        z-index: 999;;
+    }
+    nav .mid-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .banner{
+        height: 950px;;
+        background-position: center;
+    }
+    .banner .mid-container{
+        width: 100%;;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner .left-side{
+        margin-top:0px;
+    }
+    .banner .left-side h2{
+        font-size:20px;
+    }
+
+    .packing-videos{
+        width: 100%;;
+    }
+    .youtube-row{
+        flex-direction: column;
+    }
+    .youtube-cols{
+        padding: 0px 15px;;
+        margin: 10px 0px;;
+    }
+    .service-main .mid-container{
+        width: 100%;
+    }
+    .service-row{
+        flex-direction: column;
+    }
+    .service-cols{
+        flex-basis: 100%;;
+        padding: 0px 10px;;
+    }
+    .service-cols button{
+        padding: 7px 15px;;
+        border-radius: 5px;;
+    }
+    .service-cols p{
+        margin-bottom: 50px;;
+    }
+    .why-psmain h3{
+        font-size: 16px;;
+        margin: 10px 0px;;
+    }
+    .why-psmain{
+        width:100%;
+        padding: 10px 0px;;
+    }
+    .why-psmain h3{
+        margin: 7px 0px;;
+    }
+    .why-psmain .row{
+        margin: 7px 0px;;
+        padding: 0px 15px;;
+    }
+    .why-psmain img{
+        margin-bottom: 10px;;
+    }
+    .why-psmain .cols{
+        flex-basis:49%;
+        padding: 5px 7px;;
+        margin: 5px 0px;;
+    }
+    .our-achv{
+        padding: 7px 0px;;
+    }
+    .our-achv .mid-container{
+        width: 100%;
+    }
+    .our-achv h2{
+        font-size: 17px;;
+    }
+    .our-achv p{
+        margin: 10px 0px;;
+        font-size: 13px;;
+    }
+    .our-achv .icon-row{
+        width:100%;
+        margin-top: 12px;;
+        margin-bottom: 7px;;
+        flex-direction: column;
+    }
+    .our-achv .icon-cols{
+        flex-basis:50%;
+        line-height: 25px;;
+        margin: 10px 0px;;
+    }
+    .happy-main{
+        margin: 25px 0px;;
+        width: 100%;
+        flex-direction: column;
+    }
+    .happy-main .col{
+        flex-basis: 100%;;
+        padding: 50px 20px;;
+    }
+    .happy-main p{
+        margin-left: 10px;;
+    }
+    .happy-main i{
+        margin-left: -10px;;
+        font-size: 17px;;
+    }
+    .happy-main .overlap-div{
+        width: 160px;
+        background-color: gold;;
+        border-radius: 0px 10px 0px 10px;;
+        position: absolute;
+        left: 25%;
+        top: 6%px;;
+        text-align: center;
+        color: white;;
+        padding: 15px 20px;;
+    }
+    .happy-main img{
+        width: 100%;;
+    }
+    .clients-main{
+        width: 100%;;
+        padding:20px 0px;
+    }
+    .clients-main .mid-container{
+        width:100%;
+    }
+    .clients-main .bank-row{
+        flex-direction: column;
+        padding-top: 10px;;
+    }
+    .clients-main img{
+        border-radius: 15px;;
+        margin:10px;
+    }
+    .branches-main{
+        width: 100%;
+        padding: 15px 0px;;
+    }
+    .boxrow{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 20px 0px;;
+    }
+    .branches-main .boxcol{
+        flex-basis: 100%;;
+        line-height: 30px;;
+        margin: 7px;
+    }
+    .branches-main i{
+        font-size: 25px;;
+    }
+    footer{
+        width: 100%;;
+        padding: 15px 0px;;
+        text-align: center;
+    }
+    footer .mid-container{
+        width:100%;
+        padding: 10px 0px;
+    }
+    footer .items-row{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 0px;;
+    }
+    footer .items-col{
+        flex-basis: 99%;
+    }
+    footer h3{
+        margin: 10px 0px;
+        text-align: center;
+    }
+    .endfoot .mid-container{
+        width: 100%;
+    }
+    .endfoot .itemrow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid white;;
+        padding: 10px 0px;;
+    }
+    .endfoot .fb{
+        color:white;;
+        font-size: 20px;;
+    }
+    .endfoot h5{
+        padding:10px 0px 15px 0px;
+    }
+    .endfoot .ytb{
+        margin-left: 10px;;
+    }
+    .navigate-arrow i{
+        font-size: 40px;
+    }
+    .truck{
+        text-align: center;
+        display: flex;
+    }
+    .truck img{
+        margin: 0;;
+        padding: 0px;;
+        position:fixed;
+        bottom: 5px;
+        left: -100%;;
+        animation: truck-run 2s linear infinite;
+        z-index: 1000;;
+        display: flex;
+        justify-content: center;
+    }
+    @keyframes truck-run{
+        from{
+            left: 0%;
+        }
+        to{
+            left: 100%;
+        }
+    }
+    
+}
+
+
+@media only screen and (min-width:561px) and (max-width:768px){
+
+    .title h2{
+        margin:0px 0px;;
+        text-align: center;
+    }
+
+    nav{
+        z-index: 999;;
+    }
+    nav .mid-container{
+        width: 100%;
+    }
+
+    .banner .mid-container{
+        width:100%;
+        flex-direction:column;
+    }    
+    .banner{
+        height: 880px;;
+        padding: 0px 0px;
+    }
+    .banner .mid-container{
+        width: 100%;;
+        flex-direction:column;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .banner .left-side{
+        margin:20px 0px;
+    }
+    .banner .left-side h2{
+        font-size:20px;
+    }
+    
+.banner .right-side{
+    margin: auto;
+    padding: 0px 20px;;
+}
+
+
+.packing-videos{
+    width: 100%;;
+    margin: 0px;;
+}
+.youtube-row{
+    flex-direction:row;
+}
+.youtube-cols{
+    padding: 0px 15px;;
+    margin: 8px 0px;;
+    flex-basis: 50%;;
+}
+
+
+.service-main .mid-container{
+    width: 100%;
+}
+.service-row{
+    flex-direction:row;
+}
+.why-psmain{
+    width:100%;
+    padding: 10px 0px;;
+}
+.why-psmain h3{
+    margin: 7px 0px;;
+}
+.why-psmain .row{
+    padding: 0px 15px;;
+}
+.why-psmain .cols{
+    flex-basis:30%;
+}
+
+.our-achv{
+    padding: 7px 0px;;
+}
+.our-achv .mid-container{
+    width: 100%;
+}
+.our-achv h2{
+    font-size: 17px;;
+}
+.our-achv p{
+    margin: 10px 0px;;
+    font-size: 13px;;
+}
+.our-achv .icon-row{
+    margin-top: 15px;;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.our-achv .icon-cols{
+    flex-basis:30%;
+    line-height: 25px;;
+    margin: 20px 10px;;
+}
+
+
+
+.happy-main{
+    margin: 30px 0px;;
+    width: 100%;
+}
+.happy-main .col{
+    flex-basis: 100%;;
+    padding: 50px 20px;;
+}
+.happy-main p{
+    margin-left: 10px;;
+}
+.happy-main i{
+    margin-left: -10px;;
+    font-size: 17px;;
+}
+.happy-main .overlap-div{
+    width: 160px;
+    background-color: gold;;
+    border-radius: 0px 10px 0px 10px;;
+    position: absolute;
+    left: 25%;
+    top: 6%px;;
+    text-align: center;
+    color: white;;
+    padding: 15px 20px;;
+}
+.happy-main img{
+    width: 100%;;
+}
+
+
+.clients-main{
+    width: 100%;;
+    padding:20px 0px;
+}
+.clients-main .mid-container{
+    width:100%;
+}
+.clients-main .bank-row{
+    flex-direction:column;
+    padding-top: 10px;;
+    padding: 0px 20px;;
+}
+.clients-main img{
+    border-radius: 15px;;
+    margin:10px;
+}
+
+
+.branches-main{
+    width: 100%;
+    padding: 15px 0px;;
+}
+.boxrow{
+    flex-wrap: wrap;
+    flex-direction:column;
+    margin: 20px 0px;;
+}
+.branches-main .boxcol{
+    flex-basis:50%;
+    line-height: 30px;;
+    margin: 7px;
+}
+.branches-main i{
+    font-size: 25px;;
+}
+
+
+footer{
+    width: 100%;;
+    padding: 15px 0px;;
+    text-align: center;
+}
+footer .mid-container{
+    width:100%;
+    padding: 10px 0px;
+}
+footer .items-row{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0px;;
+}
+footer .items-col{
+    flex-basis: 99%;
+}
+footer h3{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+
+.endfoot .mid-container{
+    width: 100%;
+}
+.endfoot .itemrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;;
+    padding: 10px 0px;;
+}
+.endfoot .fb{
+    color:white;;
+    font-size: 20px;;
+}
+.endfoot h5{
+    padding:10px 0px 15px 0px;
+}
+.endfoot .ytb{
+    margin-left: 10px;;
+}
+.navigate-arrow i{
+    font-size: 40px;
+}
+.truck{
+    text-align: center;
+    display: flex;
+}
+.truck img{
+    margin: 0;;
+    padding: 0px;;
+    position:fixed;
+    bottom: 5px;
+    left: -100%;;
+    animation: truck-run 5s linear infinite;
+    z-index: 1000;;
+    display: flex;
+    justify-content: center;
+}
+@keyframes truck-run{
+    from{
+        left: 0%;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+}
+

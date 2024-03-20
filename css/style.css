@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;;
+    box-sizing: border-box;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Lato', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Every Section,s Title Css start */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;;
+    font-weight: bold;
+}
+.title h2{
+    color: #155ED1;;
+    font-size: 30px;;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.title img{
+    margin-right: 10px;;
+}
+.title span{
+    color: gold;
+}
+/* Every Section,s Title Css end */
+
+/* navbar css start */
+nav{
+    width: 100%;;
+    background-color:white;
+    position: sticky;
+    top: 0px;;
+}
+
+nav .mid-container{
+    width: 1150px;;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0px;;
+    font-size: 25px;;
+    font-weight: bold;
+}
+nav .contact-num{
+    padding: 10px 25px;
+    border-radius: 20px 20px 0px 20px; 
+    color: white;;
+    background-color: blue;;
+    animation: blink .8s linear infinite;
+}
+@keyframes blink{
+    
+    from{
+        background-color: #155ED1;
+    }
+    to{
+        background-color:orange;
+    }
+}
+/* navbar css end */
+
+/* Banner Css start */
+.banner .mid-container{
+    width: 1150px;;
+    margin: auto;
+    display: flex;
+}
+.banner{
+    width: 100%;;
+    height: 600px;;
+    background:url("../images/banner.jpg");
+    background-size: cover;
+    background-position:100% 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.banner .left-side{
+    flex-basis:65%;
+    color: white;;
+    margin-top: 65px;;
+}
+.banner .left-side h2{
+    font-size: 28px;;
+}
+.banner .left-side h3{
+    margin: 25px 0px;;
+    font-size: 22px;;
+}
+.banner .gold-logo{
+    margin-top: 40px;;
+}
+.banner .right-side{
+    flex-basis: 30%;;
+    margin-left: auto;
+}
+.banner .right-side form{
+    width: 100%;;
+    padding: 30px 20px;;
+    border-radius: 10px;;
+    background-color: snow;
+}
+form h3{
+    text-align: center;
+}
+.banner form input{
+    width: 100%;;
+    height: 30px;;
+    margin: 12px 0px;;
+    padding: 0px 10px;;
+}
+form .captcha-input{
+    width: 50%;;
+}
+form .captcha-otp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.captcha-otp input{
+    width: 10%;;
+}
+.captcha-otp span{
+    width: 90%;
+    display: inline-block;
+    margin-left: 20px;;
+    background-color: gold;
+    padding: 5px 5px;;
+    text-align: center;
+}
+form h6{
+    margin: 10px 0px;;
+}
+form a{
+    text-decoration: none;
+    color: #155ED1;;
+}
+form button{
+    width: 100%;;
+    text-align: center;
+    padding: 7px 0px;;
+    border:1px solid grey;
+    font-weight: bold;
+    font-size: 17px;;
+    color: white;
+    background-color:#155ED1;
+    cursor: pointer;
+}
+form button:hover{
+    background-color:#155Ea1;
+}
+/* Banner Css End */
+
+/* Packing Youtube Videos Css start */
+.packing-videos{
+    width: 1150px;;
+    margin:30px auto;
+    text-align: center;
+    padding: 15px 0px;;
+}
+.youtube-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.youtube-cols{
+    flex-basis: 32%;;
+    height: 210px;;
+    background-size: cover;
+    padding: 0;
+    margin: 0;;
+    border-radius: 15px;;
+    margin: 30px 0px;;
+    overflow: hidden;
+}
+.youtube-cols:hover iframe{
+    transform: scale(1.07);
+}
+.youtube-cols iframe{
+    width: 100%;;
+    height: 100%;;
+    border-radius: 20px;;
+    transition: 1s;;
+}
+.youtube-cols h2{
+    color: gold;;
+    color: #155ED1;;
+    font-size: 20px;;
+    margin: 10px 0px;;
+}
+/* Packing Youtube Videos Css end */
+
+/* Service Css start */
+.service-main{
+    width: 100%;;
+    padding: 20px 0px;;
+    background-color:#f4f4f4;
+}
+.service-main .mid-container{
+    width: 1150px;;
+    margin: auto;
+}
+.service-row{
+    display: flex;
+    margin: 25px 0px;;
+    justify-content: space-between;
+}
+.service-cols{
+    flex-basis: 49%;;
+    flex-wrap: wrap;
+    background-color: white;;
+    position: relative;
+    padding-bottom: 60px;;
+    overflow: hidden;
+    border-radius: 15px 15px 0px 0px;;
+}
+.service-cols .col-img{
+    overflow: hidden;
+    padding-bottom: 0;;
+    height:350px;
+}
+.service-cols img{
+    width: 100%;;
+    height: 100%;;
+    object-fit: cover;
+    transition: all .4s;
+}
+.service-cols .col-img:hover img{
+    transform: scale(1.05);
+}
+.service-cols .img-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;;
+}
+.service-cols h3{
+    color: #155ED1;
+    font-size: 20px;;
+    margin: 5px 0px;;
+    text-transform: uppercase;
+    padding: 5px 0px;;
+}
+.service-cols p{
+    font-size: 17px;;
+    text-align: justify;
+    color:#6c717b;
+    /* min-height: 150px;; */
+    font-family:sans-serif;
+}
+.service-cols button{
+    padding: 10px 25px;;
+    border-radius: 5px;;
+    background-color:gold;
+    box-shadow: 0px 0px 10px 1px lightyellow;;
+    border:none;
+    position: absolute;
+    bottom: 10px;;
+    cursor: pointer;
+    transition: .3s;;
+}
+.service-cols button:hover{
+    background-color:#fff200;
+}
+/* Service Css end */
+
+/* Why Packshift css start */
+.why-psmain{
+    width:1150px;
+    margin: auto;;
+    padding: 15px 0px;;
+}
+.why-psmain h3{
+    text-align: center;
+    margin: 15px 0px;;
+}
+.why-psmain .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;;
+    justify-content: space-between;
+}
+.why-psmain img{
+    margin-bottom: 10px;;
+}
+.why-psmain .cols{
+    flex-basis: 23%;;
+    padding: 15px 25px;;
+    margin: 10px 0px;;
+    border-radius: 10px;;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+/* Why Packshift css end */
+
+/* Our Achievement css start */
+.our-achv{
+    width: 100%;;
+    background-color: #155ED1;
+    padding: 20px 0px;;
+}
+.our-achv .mid-container{
+    width: 1150px;;
+    margin: auto;;
+}
+.our-achv h2{
+    text-align: center;
+    color: white;;
+    text-transform: uppercase;
+    font-size: 25px;;
+}
+.our-achv p{
+    text-align: center;
+    margin: 20px 0px;;
+    color: white;;
+}
+.our-achv .icon-row{
+    width: 100%;;
+    margin-top: 40px;;
+    margin-bottom: 10px;;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.our-achv img{
+    width:39px;
+    height: 39px;;
+}
+.our-achv .icon-cols{
+    flex-basis: 14%;;
+    color: white;;
+    line-height: 28px;;
+}
+/* Our Achievement css end */
+
+/* Happy Customers css start */
+
+.happy-main{
+    width: 1000px;;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;;
+}
+.happy-main .col{
+    flex-basis: 70%;;
+    padding: 100px 40px;;
+    margin: auto;
+    color: white;;
+    font-size: 15px;;
+    font-weight: bold;
+    text-align: justify;
+    position: relative;
+}
+.happy-main p{
+    margin-left: 20px;;
+}
+.happy-main i{
+    margin-left: -20px;;
+    font-size: 20px;;
+}
+.happy-main .overlap-div{
+    width: 160px;
+    background-color: gold;;
+    border-radius: 0px 10px 0px 10px;;
+    position: absolute;
+    left: 12%;
+    top: 6%px;;
+    text-align: center;
+    color: white;;
+    padding: 15px 20px;;
+}
+.happy-main img{
+    width: 100%;;
+}
+
+/* Happy Customers css end */
+
+/* Our Clients css start */
+.clients-main{
+    width: 100%;;
+    background-color: #f4f4f4;
+    padding:30px 0px 40px 0px;
+}
+.clients-main .mid-container{
+    width: 1150px;;
+    margin: auto;
+}
+.clients-main .bank-row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;;
+}
+.clients-main img{
+    border-radius: 15px;;
+}
+/* Our Clients css end */
+
+/* Our Branches css start */
+.branches-main{
+    width: 1150px;
+    margin: auto;
+    padding: 30px 0px;;
+}
+.boxrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0px;;
+}
+.branches-main .boxcol{
+    flex-basis: 49%;;
+    text-align: center;
+    line-height: 32px;;
+    padding: 20px;;
+    background-color: #f4f4f4;
+    border-radius: 20px;;
+}
+.branches-main i{
+    font-size: 35px;;
+    color: gold;;
+}
+/* Our Branches css end */
+
+/* Footer css start */
+footer{
+    width: 100%;;
+    background-color: #f4f4f4;
+    padding: 20px 0px;;
+}
+footer .mid-container{
+    width: 1150px;;
+    margin: auto;
+    padding: 10px 0px;
+}
+footer .items-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 15px 0px;;
+}
+footer .items-col{
+    flex-basis: 33%;;
+    text-transform: capitalize;
+}
+footer h3{
+    font-weight: bold;;
+    margin: 15px 0px;
+}
+footer ul{
+    list-style-type: none;
+    line-height: 30px;;
+}
+footer ul a{
+    display: inline-block;
+    text-decoration: none;
+    color: #2f2f2f;
+}
+/* Footer css end */
+
+/* Endfoot Css start */
+.endfoot{
+    width: 100%;;
+    background-color: #155ED1;
+    position: relative;
+    overflow: hidden;
+}
+.endfoot .mid-container{
+    width: 1150px;;
+    overflow: hidden;
+    margin: auto;
+}
+.endfoot .itemrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 15px;;
+    border-bottom: 3px solid white;;
+    margin: 10px 0px;;
+    padding: 15px 0px;;
+}
+.endfoot .fb{
+    color:white;;
+    font-size: 20px;;
+}
+.endfoot h5{
+    text-align: center;
+    color: white;;
+    padding:15px 0px 25px 0px;
+}
+.endfoot .ytb{
+    color: red;;
+    font-size: 20px;;
+    margin-left: 15px;;
+}
+.endfoot h4{
+    color: white;;
+}
+.navigate-arrow i{
+    font-size: 55px;;
+    color:white;
+    position: fixed;
+    right: 10px;;
+    bottom: 5px;;
+    overflow: hidden;
+}
+.truck{
+    text-align: center;
+    display: flex;
+}
+.truck img{
+    margin: 0;;
+    padding: 0px;;
+    position:fixed;
+    bottom: 10px;
+    left: 100%;;
+    z-index: 1000;;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    animation: truck-run 5s linear infinite;
+}
+@keyframes truck-run{
+    from{
+        left: 0%;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+/* Endfoot Css end */
